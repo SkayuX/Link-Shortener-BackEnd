@@ -1,14 +1,16 @@
-# Link Shortener
+<div align="center">
+<h1>Link Shortener</h1>
+</div>
 
-In order to launch backend, create .env file in root directory and put 
+### 🛠 Tech stack
 
-```env
-MODE= dev || prod
-MONGO_STRING=mongodb://localhost:27017
-```
+- **React**, **Node.js** 🧠
+- Styled with TailwindCSS and React-Bootstrap ❤️
+- Testing with **Cypress**
+- Linting with **ESLint**, formatting **Prettier**
 
->Production option in mode, launches the API with cors turned on, with http://localhost:3000 linked with it
->> Development mode on the other hand, turnes it off for testing
+### 💡 Features
 
-
-**// Made by Skayu#0001**
+- Create Shorter links with 5 digit codes
+- Easy to use
+- Desployed On Netlify and <a href="https://shortener.skayu.live">shortener.skayu.live</a>
