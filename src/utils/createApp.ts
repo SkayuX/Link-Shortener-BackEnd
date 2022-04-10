@@ -2,6 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import mongoose from 'mongoose'
 import path from 'path'
+import bodyParser from 'body-parser'
 
 const app = express()
 
@@ -20,6 +21,8 @@ class createApp {
 
     getApp = () => {
 
+        app.use(bodyParser.json())
+
         if (this.mode === "prod") {
             app.use(cors({
                 origin: ['http://localhost:3000']
@@ -34,8 +37,6 @@ class createApp {
         app.use('/static', express.static(path.join(this.dirname + '/static')))
 
         app.use('/api', this.router)
-
-        app.use(express.json())
 
         return app
     }

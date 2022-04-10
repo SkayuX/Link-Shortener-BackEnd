@@ -11,6 +11,4 @@ const app = new createApp({
     router: router,
 }).getApp()
 
-
-
 app.listen(8080)
