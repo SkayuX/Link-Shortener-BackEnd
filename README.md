@@ -5,7 +5,7 @@
 ### 🛠 Tech stack
 
 - **React**, **Node.js** 🧠
-- Styled with TailwindCSS and React-Bootstrap ❤️
+- Styled with TailwindCSS and Mantine ❤️
 - Testing with **Cypress**
 - Linting with **ESLint**, formatting **Prettier**
 
