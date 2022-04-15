@@ -13,4 +13,4 @@
 
 - Create Shorter links with 5 digit codes
 - Easy to use
-- Desployed On Netlify and <a href="https://shortener.skayu.live">shortener.skayu.live</a>
+- Deployed On Netlify and <a href="https://shortener.skayu.live">shortener.skayu.live</a>
